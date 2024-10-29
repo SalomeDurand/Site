@@ -7,23 +7,3 @@ body {
 main {
   flex: 1;
 }
-
-section {
-  display: flex;
-  flex-direction: row;
-  width: 60%;
-  align-items: flex-start;
-  margin: auto;
-}
-
-section h1 {
-  margin-bottom: 15px;
-}
-
-section p {
-  margin-bottom: 30px;
-}
-
-section div {
-  padding-right: 80px;
-}

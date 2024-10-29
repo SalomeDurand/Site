@@ -54,22 +54,39 @@ a:hover {
 }
 
 section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   padding-left: 80px;
   padding-right: 80px;
-  padding-bottom: 0px;
-  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
-section:last-of-type{
-  padding-bottom: 80px;
+section h1 {
+  margin-bottom: 15px;
 }
 
-section:nth-child(even){
+section h2 {
+  margin-bottom: 20px;
+}
+
+section p {
+  margin-bottom: 30px;
+}
+
+section div {
+  padding-right: 80px;
+  width: 60%;
+}
+
+section:nth-child(even) {
   background-color: white;
 }
 
-section:nth-child(even) p, h2 {
-  color: #1f2039;
+section:nth-child(even) h2,
+section:nth-child(even) p {
+  color: #242424;
 }
 
 footer,
@@ -78,6 +95,7 @@ nav {
   flex-direction: row;
 }
 
-footer a, nav a {
+footer a,
+nav a {
   margin-right: 30px;
 }
