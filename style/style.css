@@ -54,7 +54,22 @@ a:hover {
 }
 
 section {
-  padding: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+  padding-top: 80px;
+}
+
+section:last-of-type{
+  padding-bottom: 80px;
+}
+
+section:nth-child(even){
+  background-color: white;
+}
+
+section:nth-child(even) p, h2 {
+  color: #1f2039;
 }
 
 footer,
@@ -63,6 +78,6 @@ nav {
   flex-direction: row;
 }
 
-nav a {
+footer a, nav a {
   margin-right: 30px;
 }
